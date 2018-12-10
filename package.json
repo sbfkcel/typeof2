@@ -1,6 +1,6 @@
 {
   "name": "typeof2",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,10 @@
     "typeof",
     "typeof2",
     "className",
-    "functionName"
+    "functionName",
+    "getName",
+    "getType",
+    "typeCheck"
   ],
   "author": "",
   "license": "MIT"
