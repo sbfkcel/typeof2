@@ -10,7 +10,7 @@ npm install typeof2 --save
 ```
 
 ```javascript
-const typeof2 = require("./index");
+const typeof2 = require("typeof2");
 
 let print = obj=>{
         let o = typeof2(obj);
