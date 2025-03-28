@@ -6,5 +6,5 @@
  */
 let t,
     type = arg => (t = typeof arg) === "object" ? {}.toString.call(arg).slice(8,-1).toLowerCase() : t,
-    name = arg => (t = type(arg)) === "function" ? arg.name : t === "undefined" ? undefined : t === "null" ? null : arg.constructor.name;
+    name = arg => (t = type(arg)) === "function" ? arg.name : t === "undefined" ? undefined : t === "null" ? null : arg.constructor?.name;
 module.exports = arg => ({type:type(arg),name:name(arg)});
